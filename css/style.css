@@ -1,0 +1,415 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto';
+
+}
+html,body{
+	height: 100%;
+
+}
+
+/*-----------Todos---------*/
+.clear{
+	clear: both;
+}
+
+section h2{
+	position: relative;
+	width: 210px;
+	text-align: center;
+	background-color: white;
+	top: -17px;
+	left: 10px;
+	font-weight: normal;
+	font-size: 23px;
+}
+label{
+	width: 100%;
+	float: left;
+	margin-bottom: 5px;
+}
+
+input[type=text],input[type=date]{
+	width: 360px;
+	
+	height: 40px;
+	padding-left: 5px;
+	float: left;
+	border: 1px solid #ccc;
+}
+
+.container-empresa{
+	width: 100%;
+	height: 100%;
+	
+	padding-left: 18px;
+
+}
+
+/*---------Header---------*/
+header.topo{
+	width: 100%;
+	height:  90px;
+	background-image: linear-gradient(rgb(231,230,228),rgba(231,230,228,0.8),rgb(231,230,228));
+
+}
+header.topo .container-topo{
+	width: 80%;
+	margin: 0 auto;
+
+
+}
+header.topo .logo{
+	width: 23%;	
+	float: left;
+	margin-top: 15px;
+	
+}
+
+header.topo .logo img{
+	width: 100px;
+	float: right;
+}
+header.topo .nav{
+	
+	width: 77%;
+}
+header.topo .nav ul{
+	list-style-type: none;
+}
+header.topo .nav li{
+	float: right;
+	margin-top: 40px;
+}
+header.topo .nav a{
+	margin-left:46px;
+	width: 40px;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+}
+header.topo .nav a:hover{
+	background-color: #ccc;
+}
+
+}
+/*----------Container Dos Conteúdos-------*/
+
+
+section.conteudo{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	
+}
+section.conteudo .center{
+	width: 55%;
+	min-width: 700px;
+	height: 300px;
+	margin: 0 auto;
+	/*background-color: red;*/
+	
+}
+
+/*-------------info--------------*/
+
+.center .info{
+	margin-top:40px;
+	
+	width: 100%;
+}
+.center .info h1{
+	
+	font-size: 31px;
+	
+
+}
+.center .info h3{
+	margin-top:20px;
+	font-size: 23px;
+}
+.center .info p{
+ margin-top: 20px;
+}
+.center .info a{
+	text-decoration: none;
+	color: #809fff;
+}
+.center .info a:hover{
+	text-decoration: underline;
+}
+/* ----------------Cadastro-------------*/
+
+section.cadastro{
+	width: 100%;
+	
+	height: 100%;
+	
+	margin: 0 auto;
+	margin-top: 40px;
+	
+
+}
+section.dados-da-empresa{
+	border: 1px solid #ccc;
+}
+
+
+section.cadastro .container-empresa  div{
+	width: 100%;
+	float: left;
+	margin-bottom:  20px;
+}
+
+
+section.cadastro .container-empresa p{
+	margin-bottom: 10px;
+}
+section.cadastro .check{
+	width: 30px;
+
+}
+section.cadastro .check div{
+	width: 51%;
+	float: left;
+}
+
+section.cadastro .check label{
+	margin-bottom: 0;
+	width: 8%;
+	float: left;
+	margin-left: 5px;
+
+}
+ input[type=radio]{
+	width: 5%;
+	margin-top: 3px;
+	float: left;
+}
+
+/*----Container-----*/
+section.cadastro{
+	width: 100%;
+	height: auto;
+	
+	float: right;
+	
+}
+
+/*------DADOS DO USUARIO-----*/
+section.dados-do-usuario{
+	width: 100%;
+	
+	height: 100%;
+	float: left;
+	border: 1px solid #ccc;
+	margin-top: 40px;
+	
+	
+
+}
+
+/*-------------Contas a receber------------*/
+section.conta-receber{
+	width: 100%;
+	height: auto;
+	border: 1px solid #ccc;
+	margin-top: 40px;
+	float: left;
+}
+section.conta-receber h2{
+	width: 435px;
+	left: 10px;
+}
+/*----------------documentos-digitalizados--------*/
+section.documentos-digitalizados{
+	width: 100%;
+	height: auto;
+	border: 1px solid #cccc;
+	margin-top: 40px;
+	float: left;
+}
+
+
+.doc-digitalizados{
+	
+	max-width: 98%;
+	margin: 0 auto;
+
+	height: 150px;
+	border: 1px solid black;
+}
+section.documentos-digitalizados h2{
+	width: 290px;
+	left: 0;
+}
+.doc-digitalizados label{
+	padding: 10px;
+	font-size: 18px;
+}
+.doc-digitalizados input[type=file]{
+	margin-left: 10px;
+}
+
+
+
+/*---------Concluir---------*/
+
+
+
+.botao{
+	float: left;
+	padding:4px 15px;
+	width: 130px;
+	background-color: #2BA1C0;
+	border:0;
+	float: left;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	color: white;
+	font-size: 20px;
+	margin-right: 30px;
+	text-decoration: none;
+	text-align: center;
+	
+
+}
+.registre-se {
+	padding:4px 15px;
+	width: 130px;
+	background-color: #2BA1C0;
+	border:0;
+	float: left;
+	margin-bottom: 50px;
+	margin-top: 20px;
+
+}
+.registre-se button{
+	border: 0;
+	background-color: rgba(0,0,0,0);
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+.registre-se button:hover{
+	cursor: pointer;
+
+}
+
+}
+
+/*-------------Medias--Screens-----------*/
+@media screen and (max-width: 780px){
+section.conteudo .center{
+	width: 80%;
+	min-width: 300px;
+	
+	margin: 0 auto;
+}
+.center .info{
+	
+	float: none;
+	text-align: center;
+	width: 100%;
+}
+.center .info h1{
+	font-size: 35px;
+}
+
+.center .info h3{
+	
+	font-size: 21px;
+	
+}
+
+
+section.cadastro h2{
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+section.cadastro .container-empresa{
+	width: 100%;
+	padding-left: 0;
+	text-align:center;
+}
+section.cadastro .container-empresa  div{
+	width: 100%;
+	float: left;
+	margin-bottom:  20px;
+}
+section.cadastro .container-empresa label{
+	width: 100%;
+	float: left;
+	margin-bottom: 5px;
+}
+
+ input[type=text],
+input[type=date]{
+	width: 65%;
+	min-width: 300px;
+	height: 40px;
+	
+	
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+label{
+	margin-bottom: 5px;
+	width: 100%;
+	float: left;
+	margin-left: 0px;
+
+}
+section.cadastro .check input[type=radio]{
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 5px;
+	
+}
+section.conta-receber{
+	text-align: center;
+}
+.doc-digitalizados{
+	max-width: 90%;
+	height: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+
+section.concluir{
+	width: 100%;
+	text-align: center;
+}
+.navegacao{
+	width: 100%;
+	
+	position: relative;
+	left: 50%;
+	transform:translateX(-30%);
+	text-align: center;
+
+	
+
+}
+
+
+
+/*-------------*/
+@media screen and (max-width: 570px){
+ section.conta-receber h2{
+ 	width: 320px;
+ }
+}
